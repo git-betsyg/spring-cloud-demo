@@ -1,0 +1,6 @@
+[submodule "spring-micro-01"]
+	path = spring-micro-01
+	url = https://github.com/git-betsyg/spring-micro-01.git
+[submodule "spring-common"]
+	path = spring-common
+	url = https://github.com/git-betsyg/spring-common.git

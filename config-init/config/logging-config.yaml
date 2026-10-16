@@ -1,0 +1,9 @@
+# 日志配置（多微服务共享）
+logging:
+  # 日志级别：TRACE < DEBUG < INFO < WARN < ERROR
+  level:
+    root: INFO # 全局默认级别
+  # 日志格式
+  pattern:
+    # 控制台输出格式：时间 | 线程 | 级别 | 类名(最多50字符) | 消息
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
