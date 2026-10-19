@@ -13,7 +13,6 @@
     <description>Spring Cloud demo (multi-module parent)</description>
 
     <modules>
-        <module>spring-common</module>
         <module>spring-micro-01</module>
     </modules>
 </project>
