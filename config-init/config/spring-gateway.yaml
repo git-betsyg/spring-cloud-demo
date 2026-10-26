@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+      routes:
+        - id: springMicro01Hello
+          uri: lb://spring-micro-01
+          predicates:
+            - Path=/hello
+        - id: springMicro01
+          uri: lb://spring-micro-01
+          predicates:
+            - Path=/micro-01/**
+          filters:
+            - StripPrefix=1

@@ -1,3 +1,6 @@
 [submodule "spring-micro-01"]
 	path = spring-micro-01
 	url = https://github.com/git-betsyg/spring-micro-01.git
+[submodule "spring-gateway"]
+	path = spring-gateway
+	url = https://github.com/git-betsyg/spring-gateway.git
